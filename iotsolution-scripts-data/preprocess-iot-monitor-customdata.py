@@ -201,6 +201,8 @@ latlong=lat:long'
  
      identifier = "IoT device performance and failures"
 
+     preprocesslogic='sum,max,variance,diff,trend' 
+
      # if dataage - use:dataage_utcoffset_timetype
 #     preprocesslogic='anomprob,trend,avg,dataage_1_minute'
      preprocesslogic='dataage_-4_day,trend,min,max' # millisecond,second,minute,hour,day
